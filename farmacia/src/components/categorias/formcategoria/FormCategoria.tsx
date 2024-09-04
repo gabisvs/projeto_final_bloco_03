@@ -82,17 +82,17 @@ function FormCategoria() {
           <label htmlFor="categoria">Categoria</label>
           <input
             type="text"
-            placeholder="Categoria"
-            name='tipo'
+            placeholder="Insira o nome da categoria"
+            name='nome'
             className="border-2 border-slate-700 rounded p-2 utral-800"
             required
-            value={categoria.tipo}
+            value={categoria.nome}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
           />
         </div>
         <button
-          className="rounded text-slate-100 bg-slate-400 
-          hover:bg-slate-800 w-1/2 py-2 mx-auto flex justify-center"
+          className="rounded text-slate-100 bg-customBlue 
+          hover:bg-slate-500 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >
           {isLoading ?

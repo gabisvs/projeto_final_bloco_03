@@ -1,3 +1,4 @@
+import Carousel from "../../components/produtos/Carousel"
 
 function Home() {
     return (
@@ -26,7 +27,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            
+            <Carousel/>
         </>
     )
 }
